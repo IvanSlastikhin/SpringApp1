@@ -10,7 +10,7 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="musicBean"
-          class="ru.jhonsy.home.ClassicalMusic">
+          class="ru.jhonsy.home.musicGenres.ClassicalMusic">
     </bean>
 
     <bean id="musicPlayer"
